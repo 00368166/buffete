@@ -1,0 +1,54 @@
+{
+  "dominios": [
+    {
+      "nombre": "legalsyncro",
+      "ssl_ruta": "legalsyncro/ssl/",
+      "subdominios": {
+        "": {
+          "subdominio": "legalsyncro.com",
+          "descripcion": "Dominio principal",
+          "habilitado": true,
+          "ruta": "legalsyncro/www/",
+          "ruta_ssl": "legalsyncro/ssl/legalsyncro.com/"
+        },
+        "www": {
+          "subdominio": "www.legalsyncro.com",
+          "descripcion": "subdominio www",
+          "habilitado": true,
+          "ruta": "legalsyncro/www/",
+          "ruta_ssl": "legalsyncro/ssl/www.legalsyncro.com/"
+        },
+        "app": {
+          "subdominio": "app.legalsyncro.com",
+          "descripcion": "Subdominio de la aplicación",
+          "habilitado": false,
+          "ruta_ssl": "legalsyncro/ssl/app.legalsyncro.com/"
+        },
+        "clientes": {
+          "subdominio": "clientes.legalsyncro.com",
+          "descripcion": "Subdominio de clientes",
+          "habilitado": false,
+          "ruta_ssl": "legalsyncro/ssl/clientes.legalsyncro.com/"
+        },
+        "admin": {
+          "subdominio": "admin.legalsyncro.com",
+          "descripcion": "Panel de administración",
+          "habilitado": false,
+          "ruta_ssl": "legalsyncro/ssl/admin.legalsyncro.com/"
+        },
+        "api": {
+          "subdominio": "api.legalsyncro.com",
+          "descripcion": "API para integración",
+          "habilitado": false,
+          "ruta_ssl": "legalsyncro/ssl/api.legalsyncro.com/"
+        },
+        "mail": {
+          "subdominio": "mail.legalsyncro.com",
+          "descripcion": "Correo electrónico",
+          "habilitado": false,
+          "ruta_ssl": "legalsyncro/ssl/mail.legalsyncro.com/"
+        }
+      }
+    }
+  ]
+}
